@@ -6,7 +6,7 @@ import Home from './Home';
 import Stuff from './Stuff';
 import Contact from './Contact';
 import Footer from './Footer';
-import Test from './test';
+import NavigationBar from './NavigationBar';
 
 require('./styles.css');
 
@@ -14,7 +14,7 @@ class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: <Home />
+      currentPage: 'Home'
     };
   }
 
@@ -22,17 +22,18 @@ class Main extends Component {
     return (
       <div>
         <HashRouter>
-          <div class="container-fluid">
-            <Test />
-          </div>
+          <NavigationBar />
         </HashRouter>
         <HashRouter>
-          <div class="container">
-            <Route exact="exact" path="/" component={Home} />
-            <Route path="/stuff" component={Stuff} />
-            <Route path="/contact" component={Contact} />
+          <div>
+            <div class="container">
+              <Route exact="exact" path="/" component={Home} />
+              <Route path="/stuff" component={Stuff} />
+              <Route path="/contact" component={Contact} />
+            </div>
           </div>
         </HashRouter>
+        <Footer />
       </div>
     );
   }

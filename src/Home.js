@@ -4,6 +4,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <div class="jumbotron" />
         <h2>HELLO</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean

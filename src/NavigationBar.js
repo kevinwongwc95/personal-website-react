@@ -9,30 +9,34 @@ import Stuff from './Stuff';
 import Contact from './Contact';
 import Footer from './Footer';
 
-class Test extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+class NavigationBar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect>
+      <Navbar collapseOnSelect inverse>
         <Navbar.Header>
-          <Navbar.Brand>
-            <a href="/">React-Bootstrap</a>
+          <Navbar.Brand id="brand">
+            <NavLink to="/">Kevin Wong</NavLink>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullLeft>
             <NavItem eventKey={1} href="#">
-              <NavLink to="/">Home</NavLink>
+              <NavLink
+                to="/"
+              >
+                Home
+              </NavLink>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <NavLink to="/stuff">Stuff</NavLink>
+              <NavLink to="/stuff">
+                Stuff
+              </NavLink>
             </NavItem>
             <NavItem eventKey={3} href="#">
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact">
+                Contact
+              </NavLink>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
@@ -40,4 +44,4 @@ class Test extends Component {
     );
   }
 }
-export default Test;
+export default NavigationBar;
