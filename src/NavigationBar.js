@@ -9,10 +9,11 @@ import Stuff from './Stuff';
 import Contact from './Contact';
 import Footer from './Footer';
 
+
 class NavigationBar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect inverse>
+      <Navbar collapseOnSelect inverse staticTop>
         <Navbar.Header>
           <Navbar.Brand id="brand">
             <NavLink to="/">Kevin Wong</NavLink>
@@ -22,19 +23,17 @@ class NavigationBar extends Component {
         <Navbar.Collapse>
           <Nav pullLeft>
             <NavItem eventKey={1} href="#">
-              <NavLink
-                to="/"
-              >
+              <NavLink to="/" id="navItem">
                 Home
               </NavLink>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <NavLink to="/stuff">
+              <NavLink to="/stuff" id="navItem">
                 Stuff
               </NavLink>
             </NavItem>
             <NavItem eventKey={3} href="#">
-              <NavLink to="/contact">
+              <NavLink to="/contact" id="navItem">
                 Contact
               </NavLink>
             </NavItem>

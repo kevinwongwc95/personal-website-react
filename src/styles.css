@@ -1,10 +1,76 @@
-a.navbar-brand.active:hover {
+a.navbar-brand.active{
   color: rgb(97, 218, 251);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-weight: 300;
 }
 
+/* a.navbar-brand.active:hover {
+  color: rgb(97, 218, 251);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+} */
+
+#navItem{
+  color: white;
+  text-decoration: none;
+}
+
+#navItem:hover{
+  color: rgb(97, 218, 251);
+}
+
+#profileImage{
+  border-radius: 50%;
+  height: 100px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  background-color: #282c34;
+}
+
+#jumbotronHeader{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: rgb(97, 218, 251);
+}
+
+#jumbotronDescription{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#jumbotronGithub{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  background-color: #61dafb;
+  font-size: 16px;
+  border-radius: 0;
+  color:black;
+}
+#jumbotronGithub:hover{
+  background-color: white;
+}
+
+#jumbotronResume{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(97, 218, 251);
+    background-color: #282c34;
+    width: 188px;
+}
+#jumbotronResume:hover{
+  color:white;
+}
 footer {
   background-color: #222;
   border-color: #080808;
@@ -17,7 +83,7 @@ footer {
 #FooterTitle {
   color: #9d9d9d;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 200;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
