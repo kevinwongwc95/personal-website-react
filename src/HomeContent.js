@@ -1,16 +1,18 @@
-import React, {Component} from 'react';
-import {render} from 'react-dom';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 
 import Markdown from 'react-markdown';
 
-import txt from './content/Home.md';
+import content from './content/Home.md';
 
 class HomeContent extends Component {
   render() {
-    return(
-      <Markdown source={txt} />
+    return (
+      <div class="container content">
+        <Markdown source={content} />
+      </div>
     );
   }
 }
 
-export default HomeContent
+export default HomeContent;

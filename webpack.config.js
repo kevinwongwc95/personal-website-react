@@ -9,6 +9,10 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  devServer: {
+    contentBase: __dirname + '/public'
+    // contentBase: 'dist'
+  },
   module: {
     rules: [
       {
@@ -27,9 +31,9 @@ module.exports = {
         use: ['url-loader?limit=10000', 'img-loader']
       },
       {
-       test: /\.md$/,
-       use: 'raw-loader'
-     }
+        test: /\.md$/,
+        use: 'raw-loader'
+      }
     ]
   }
 };

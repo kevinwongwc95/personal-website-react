@@ -12,6 +12,11 @@ a.navbar-brand.active{
   font-weight: 300;
 } */
 
+.content{
+  font-size: 16px;
+  font-weight: 400;
+}
+
 #navItem{
   color: white;
   text-decoration: none;
@@ -37,6 +42,8 @@ a.navbar-brand.active{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   color: rgb(97, 218, 251);
+  font-size: 40px;
+  font-weight: 300;
 }
 
 #jumbotronDescription{
@@ -60,7 +67,7 @@ a.navbar-brand.active{
   background-color: white;
 }
 
-#jumbotronResume{
+#jumbotronResumeButton{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -68,9 +75,18 @@ a.navbar-brand.active{
     background-color: #282c34;
     width: 188px;
 }
-#jumbotronResume:hover{
+#jumbotronResumeButton:hover{
   color:white;
 }
+
+#jumbotronResumeText:hover{
+  color:white;
+}
+#jumbotronResumeText{
+  color: #61dafb;
+  text-decoration: none;
+}
+
 footer {
   background-color: #222;
   border-color: #080808;

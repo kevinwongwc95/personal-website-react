@@ -5,10 +5,9 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
 
 import Home from './Home';
-import Stuff from './Stuff';
-import Contact from './Contact';
+import Projects from './Projects';
+import Resume from './Resume';
 import Footer from './Footer';
-
 
 class NavigationBar extends Component {
   render() {
@@ -28,13 +27,13 @@ class NavigationBar extends Component {
               </NavLink>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <NavLink to="/stuff" id="navItem">
-                Stuff
+              <NavLink to="/project" id="navItem">
+                Projects
               </NavLink>
             </NavItem>
             <NavItem eventKey={3} href="#">
-              <NavLink to="/contact" id="navItem">
-                Contact
+              <NavLink to="/resume" id="navItem">
+                Resume
               </NavLink>
             </NavItem>
           </Nav>

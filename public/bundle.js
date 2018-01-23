@@ -7054,20 +7054,31 @@ var Home = function (_Component) {
               { id: 'jumbotronDescription' },
               'Web Developer ',
               _react2.default.createElement('br', null),
-              _react2.default.createElement('i', { id: 'location', 'class': 'fa fa-map-marker', 'aria-hidden': 'true' }),
-              ' San Francisco, CA'
+              _react2.default.createElement('i', {
+                id: 'location',
+                'class': 'fa fa-map-marker',
+                'aria-hidden': 'true'
+              }),
+              ' ',
+              'San Francisco, CA'
             ),
             _react2.default.createElement(
               'a',
-              { href: 'https://github.com/kevinwongwc95', target: '_blank', 'class': 'btn btn-lg', id: 'jumbotronGithub' },
-              'Check out my Github! ',
+              {
+                href: 'https://github.com/kevinwongwc95',
+                target: '_blank',
+                'class': 'btn btn-lg',
+                id: 'jumbotronGithub'
+              },
+              'Check out my Github!',
+              ' ',
               _react2.default.createElement('i', { 'class': 'fa fa-github fa', 'aria-hidden': 'true' }),
               ' '
             ),
             _react2.default.createElement(
               'button',
               { 'class': 'btn btn-lg', id: 'jumbotronResume' },
-              'My Resume '
+              'My Resume >'
             )
           )
         ),
@@ -7128,7 +7139,11 @@ var HomeContent = function (_Component) {
   _createClass(HomeContent, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(_reactMarkdown2.default, { source: _Home2.default });
+      return _react2.default.createElement(
+        'div',
+        { 'class': 'container content' },
+        _react2.default.createElement(_reactMarkdown2.default, { source: _Home2.default })
+      );
     }
   }]);
 
@@ -39986,7 +40001,7 @@ function getCoreProps(props) {
 /* 294 */
 /***/ (function(module, exports) {
 
-module.exports = "# About Me\n\nI’ve recently graduated from UC San Diego (class of 17’) with a degree in Computer Science, and am interning at Grio in San Francisco as a web developer.\n\nDuring my free time I love to explore new places to eat in the Bay Area. I’m a huge pho and coffee fan, so I’m always interested in trying a new spot!\n\nCurrent favorite coffee: Philz coffee – Ecstatic (medium medium)\n\nCurrent favorite pho: Monster pho, Oakland\n\n## Education\n\nComputer Science (B.S) @ UC San Diego\n\n## Work Experience\n\nWeb Development Intern @ Grio (San Francisco)\n\n## Skills\n\n- Languages - Python / Java/ Ruby / Javascript / CSS / HTML / C++\n- Tools/Methods - Git / mySQL / Jira / Postgres / RSpec\n- Frameworks/Libraries - Ruby on Rails / Bootstrap / Sidekiq ***\n\nContact me\n\n<kevinwongwc95@gmail.com>\n"
+module.exports = "# About Me\n\nI've recently completed an internship at Grio as a web developer and am a graduate from UC San Diego with a B.S in Computer Science from UC San Diego.\n\nDuring my free time I love to explore new places to eat in the Bay Area. I’m a huge pho and coffee fan, so I’m always interested in trying a new spot!\n\n## Education\n\nComputer Science (B.S) @ UC San Diego\n\n## Work Experience\n\nWeb Development Intern @ Grio (San Francisco)\n\n## Skills\n\n- Languages - Python / Java/ Ruby / Javascript / CSS / HTML / C++\n- Tools/Methods - Git / mySQL / Jira / Postgres / RSpec\n- Frameworks/Libraries - Ruby on Rails / Bootstrap / Sidekiq ***\n"
 
 /***/ }),
 /* 295 */
@@ -51893,7 +51908,7 @@ exports = module.exports = __webpack_require__(446)(false);
 
 
 // module
-exports.push([module.i, "a.navbar-brand.active{\n  color: rgb(97, 218, 251);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  font-weight: 300;\n}\n\n/* a.navbar-brand.active:hover {\n  color: rgb(97, 218, 251);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  font-weight: 300;\n} */\n\n#navItem{\n  color: white;\n  text-decoration: none;\n}\n\n#navItem:hover{\n  color: rgb(97, 218, 251);\n}\n\n#profileImage{\n  border-radius: 50%;\n  height: 100px;\n}\n.navbar{\n  margin-bottom: 0px;\n}\n\n.jumbotron {\n  background-color: #282c34;\n}\n\n#jumbotronHeader{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  color: rgb(97, 218, 251);\n}\n\n#jumbotronDescription{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  color: white;\n  font-weight: 200;\n  font-size: 24px;\n  margin-bottom: 30px;\n}\n\n#jumbotronGithub{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  background-color: #61dafb;\n  font-size: 16px;\n  border-radius: 0;\n  color:black;\n}\n#jumbotronGithub:hover{\n  background-color: white;\n}\n\n#jumbotronResume{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n    font-size: 16px;\n    color: rgb(97, 218, 251);\n    background-color: #282c34;\n    width: 188px;\n}\n#jumbotronResume:hover{\n  color:white;\n}\nfooter {\n  background-color: #222;\n  border-color: #080808;\n  /* margin-top: 20px;\n  height: 40px;\n  padding-top: 15px;\n  height: 75px; */\n}\n\n#FooterTitle {\n  color: #9d9d9d;\n  font-size: 20px;\n  font-weight: 200;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n}\n\nfooter i {\n  cursor: pointer;\n  font-size: 36px;\n  color: rgb(255, 255, 255);\n  margin-left: 5px;\n  margin-right: 5px;\n}\n\nfooter i:hover {\n  color: rgb(97, 218, 251);\n}\n", ""]);
+exports.push([module.i, "a.navbar-brand.active{\n  color: rgb(97, 218, 251);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  font-weight: 300;\n}\n\n/* a.navbar-brand.active:hover {\n  color: rgb(97, 218, 251);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  font-weight: 300;\n} */\n\n#navItem{\n  color: white;\n  text-decoration: none;\n}\n\n#navItem:hover{\n  color: rgb(97, 218, 251);\n}\n\n#profileImage{\n  border-radius: 50%;\n  height: 100px;\n}\n.navbar{\n  margin-bottom: 0px;\n}\n\n.jumbotron {\n  background-color: #282c34;\n}\n\n#jumbotronHeader{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  color: rgb(97, 218, 251);\n  font-size: 40px;\n  font-weight: 300;\n}\n\n#jumbotronDescription{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  color: white;\n  font-weight: 200;\n  font-size: 24px;\n  margin-bottom: 30px;\n}\n\n#jumbotronGithub{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n  background-color: #61dafb;\n  font-size: 16px;\n  border-radius: 0;\n  color:black;\n}\n#jumbotronGithub:hover{\n  background-color: white;\n}\n\n#jumbotronResume{\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n    font-size: 16px;\n    color: rgb(97, 218, 251);\n    background-color: #282c34;\n    width: 188px;\n}\n#jumbotronResume:hover{\n  color:white;\n}\nfooter {\n  background-color: #222;\n  border-color: #080808;\n  /* margin-top: 20px;\n  height: 40px;\n  padding-top: 15px;\n  height: 75px; */\n}\n\n#FooterTitle {\n  color: #9d9d9d;\n  font-size: 20px;\n  font-weight: 200;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,\n    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;\n}\n\nfooter i {\n  cursor: pointer;\n  font-size: 36px;\n  color: rgb(255, 255, 255);\n  margin-left: 5px;\n  margin-right: 5px;\n}\n\nfooter i:hover {\n  color: rgb(97, 218, 251);\n}\n", ""]);
 
 // exports
 
