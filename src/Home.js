@@ -31,8 +31,8 @@ class Home extends Component {
               <i class="fa fa-github fa" aria-hidden="true" />{' '}
             </a>
             <button class="btn btn-lg" id="jumbotronResumeButton">
-              <NavLink to="/resume" id="jumbotronResumeText">
-                My Resume >
+              <NavLink to="/blog" id="jumbotronResumeText">
+                My Blog >
               </NavLink>
             </button>
           </div>

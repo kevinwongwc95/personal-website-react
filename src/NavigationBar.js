@@ -6,7 +6,7 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 
 import Home from './Home';
 import Projects from './Projects';
-import Resume from './Resume';
+import Blog from './Blog';
 import Footer from './Footer';
 
 class NavigationBar extends Component {
@@ -27,13 +27,13 @@ class NavigationBar extends Component {
               </NavLink>
             </NavItem>
             <NavItem eventKey={2} href="#">
-              <NavLink to="/project" id="navItem">
+              <NavLink to="/projects" id="navItem">
                 Projects
               </NavLink>
             </NavItem>
             <NavItem eventKey={3} href="#">
-              <NavLink to="/resume" id="navItem">
-                Resume
+              <NavLink to="/blog" id="navItem">
+                Blog
               </NavLink>
             </NavItem>
           </Nav>
