@@ -1,1 +1,1 @@
-web: npm st:art
+web: npm start
