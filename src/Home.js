@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-
-import {NavLink} from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
 import HomeContent from './HomeContent';
+import profilePicture from './images/profile.jpg';
 
 class Home extends Component {
   render() {
@@ -10,7 +9,7 @@ class Home extends Component {
       <div>
         <div class="jumbotron">
           <div class="container text-center">
-            <img id="profileImage" src={require('./images/profile.jpg')} />
+            <img id="profileImage" src={profilePicture} />
             <h1 id="jumbotronHeader">Kevin Wong</h1>
             <h1 id="jumbotronDescription">
               Web Developer <br />

@@ -1,7 +1,7 @@
 # About Me
 
 I've recently completed an internship at Grio as a web developer and am a graduate from UC San Diego with a B.S in Computer Science from UC San Diego.
-During my internship I worked on Grio's time-tracking system primarily with Angular/Rails/Mysql and NodeJ.
+During my internship I worked on Grio's time-tracking system primarily with Angular/Rails/Mysql and Node.
 
 Post-internship I've been working on learning more React, which can be seen here by my website!
 This site is hosted on Heroku and is a React app.
