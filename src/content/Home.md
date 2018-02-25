@@ -1,12 +1,6 @@
 # About Me
 
-I am currently working as a web developer at Appstem and am a graduate from UC San Diego with a B.S in Computer Science! 
-During my internship I worked on Grio's time-tracking system primarily with Angular/Rails/Mysql and Node.
-
-Post-internship I've been working on learning more React, which can be seen here by my website!
-This site is hosted on Heroku and is a React app.
-
-I am seeking full-time software engineering positions. Feel free to email me at <kevinwongwc95@gmail.com> !
+I am currently working as a web developer at Appstem and am a graduate from UC San Diego with a B.S in Computer Science!
 
 During my free time I love to explore new places to eat in the Bay Area. I’m a huge pho and coffee fan, so I’m always interested in trying a new spot!
 
@@ -25,6 +19,13 @@ Computer Science (B.S) - UC San Diego (Graduated June 2017)
 - Server Side Web Applications
 
 ## Work Experience
+
+### Web Developer @ Appstem (San Francisco)
+
+- Optimize JetSuite performance load times by refactoring React components.
+- Improve flight checkout/confirmation by making UI flow more logical for JetSuite customers.
+- Implement Stripe payments in Node for Ridey iOS application.
+- Redesign database schema of users to reduce redundancy and improve lookup times.
 
 ### Web Development Intern @ Grio (San Francisco)
 
