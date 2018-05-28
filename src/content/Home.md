@@ -1,6 +1,6 @@
 # About Me
 
-I am currently working as a web developer at Appstem and am a graduate from UC San Diego with a B.S in Computer Science!
+I am currently working as a web developer at PlushCare and am a graduate from UC San Diego with a B.S in Computer Science!
 
 During my free time I love to explore new places to eat in the Bay Area. I’m a huge pho and coffee fan, so I’m always interested in trying a new spot!
 
@@ -19,6 +19,9 @@ Computer Science (B.S) - UC San Diego (Graduated June 2017)
 - Server Side Web Applications
 
 ## Work Experience
+
+### Full Stack Software Engineer @ PlushCare (San Francisco)
+- Design and integrate front end React app to allow users to manage chronic conditions.
 
 ### Web Developer @ Appstem (San Francisco)
 
@@ -50,6 +53,7 @@ Computer Science (B.S) - UC San Diego (Graduated June 2017)
 ### Frameworks & Libraries
 - Ruby on Rails
 - React
+- Redux
 - jQuery
 - Bootstrap
 - Webpack
