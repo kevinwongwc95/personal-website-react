@@ -4,24 +4,13 @@ I am currently working as a web developer at PlushCare and am a graduate from UC
 
 During my free time I love to explore new places to eat in the Bay Area. I’m a huge pho and coffee fan, so I’m always interested in trying a new spot!
 
-## Education
-
-Computer Science (B.S) - UC San Diego (Graduated June 2017)
-
-### Relevant CourseWork
-
-- Introduction to Web Development
-- Android app Development
-- Design and Algorithm Analysis
-- Advanced Object Oriented Programming (C++)
-- Data Structures (C++)
-- Web Client Languages
-- Server Side Web Applications
-
 ## Work Experience
 
 ### Full Stack Software Engineer @ PlushCare (San Francisco)
-- Design and integrate front end React app to allow users to manage chronic conditions.
+- Implement front end React app to allow users to manage chronic conditions.
+- Refactor Doctor facing website for use during appointments to allow them to record users'
+  chronic conditions.
+- Design scalable endpoints to improve page performance load time.
 
 ### Web Developer @ Appstem (San Francisco)
 
@@ -38,6 +27,20 @@ Computer Science (B.S) - UC San Diego (Graduated June 2017)
 - Implement e2e tests with Jasmine/Protractor to reduce bugs as notifications project scaled up.
 - Create ad-landing page currently in production, which led to several new leads in clients.
 
+
+## Education
+
+Computer Science (B.S) - UC San Diego (Graduated June 2017)
+
+### Relevant CourseWork
+
+- Introduction to Web Development
+- Android app Development
+- Design and Algorithm Analysis
+- Advanced Object Oriented Programming (C++)
+- Data Structures (C++)
+- Web Client Languages
+- Server Side Web Applications
 
 ## Skills
 
